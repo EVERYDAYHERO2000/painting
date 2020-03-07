@@ -1,0 +1,110 @@
+[
+    {
+        "src" : "s_v_pic_16.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_v_pic_14.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "l_v_pic_2.png",
+        "dir" : "ver",
+        "size" : "l",
+        "frame" : "black"
+    },
+    {
+        "src" : "m_h_pic_3.png",
+        "dir" : "hor",
+        "size" : "m",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_h_pic_8.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_v_pic_13.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "s_v_pic_12.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "s_v_pic_11.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "s_v_pic_10.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "l_h_pic_1.png",
+        "dir" : "hor",
+        "size" : "l",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_h_pic_7.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "s_h_pic_6.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_h_pic_5.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "s_v_pic_15.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "s_v_pic_17.png",
+        "dir" : "ver",
+        "size" : "s",
+        "frame" : "white"
+    },
+    {
+        "src" : "m_v_pic_4.png",
+        "dir" : "ver",
+        "size" : "m",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_h_pic_18.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "black"
+    },
+    {
+        "src" : "s_h_pic_19.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "black"
+    }
+]

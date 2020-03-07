@@ -1,24 +1,3 @@
-cssScrollSnapPolyfill();
-
-(function(){
-
-  var images = document.querySelectorAll('.painting')
-
-  for (var i = 0; i < images.length; i++){
-
-    var filter = images[i].cloneNode(true);
-
-    filter.classList.add('painting_filter');
-
-    insertAfter(filter, images[i])
-
-  }
-
-  function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-  }
-
-})();
 
 (function() {
     // Init
