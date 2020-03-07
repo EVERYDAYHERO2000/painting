@@ -48,6 +48,8 @@ const page = function(){
         <div class="screen"> 
             <div class="container container_${e.dir} container_size-${e.size}">
                 <div class="container__description">
+                    <div>2020</div>
+                    <div>Холст на оргалите, масло</div>
                     <div>Размер: ${props.canvas} см</div>
                     <div>Рама: ${props.name} ${props.frame} см</div>
                 </div>
