@@ -14,6 +14,7 @@ const page = function(){
 
         let type = (e.size == 'm' || e.size == 'l') ? 1 : 2,
             frame = (e.size == 'm' || e.size == 'l') ? `knoppaeng-frame_${e.frame}.png` : `edsbruk-frame_${e.frame}.png`,
+            status = (e.status && e.status == 'sold') ? '<div>Продано</div>' : '',
             props = (function(){
 
                 let p = {
@@ -48,7 +49,8 @@ const page = function(){
         <div class="screen"> 
             <div class="container container_${e.dir} container_size-${e.size}">
                 <div class="container__description">
-                    <div>2020</div>
+                    ${status}
+                    <div class="description__title">${(e.name) ? `${e.name}, ` : ''} 2020</div>
                     <div>Холст на оргалите, масло</div>
                     <div>Размер: ${props.canvas} см</div>
                     <div>Рама: ${props.name} ${props.frame} см</div>

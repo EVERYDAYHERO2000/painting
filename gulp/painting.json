@@ -1,107 +1,126 @@
 [
     {
+        "name" : "Горы",
         "src" : "s_v_pic_16.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "black"
     },
     {
+        "name" : "Утро",
         "src" : "s_v_pic_14.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Новый город",
         "src" : "l_v_pic_2.png",
         "dir" : "ver",
         "size" : "l",
         "frame" : "black"
     },
     {
+        "name" : "Вена",
         "src" : "m_h_pic_3.png",
         "dir" : "hor",
         "size" : "m",
         "frame" : "black"
     },
     {
+        "name" : "Облака",
         "src" : "s_h_pic_8.png",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
+        "name" : "Дом",
         "src" : "s_v_pic_13.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Ночь",
         "src" : "s_v_pic_12.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Весна",
         "src" : "s_v_pic_11.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Проспект",
         "src" : "s_v_pic_10.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Вид на Фудзи с озера Кавагучи",
         "src" : "l_h_pic_1.png",
         "dir" : "hor",
         "size" : "l",
         "frame" : "black"
     },
     {
+        "name" : "Инсбрук",
         "src" : "s_h_pic_7.png",
         "dir" : "hor",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Утро",
         "src" : "s_h_pic_6.png",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
+        "name" : "Город",
         "src" : "s_h_pic_5.png",
         "dir" : "hor",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Фудзикавагутико, уезд Минамицуру, Яманаси, Япония",
         "src" : "s_v_pic_15.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "",
         "src" : "s_v_pic_17.png",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
+        "name" : "Город",
         "src" : "m_v_pic_4.png",
         "dir" : "ver",
         "size" : "m",
-        "frame" : "black"
+        "frame" : "black",
+        "status" : "sold"
     },
     {
+        "name" : "Дома",
         "src" : "s_h_pic_18.png",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
+        "name" : "После дождя",
         "src" : "s_h_pic_19.png",
         "dir" : "hor",
         "size" : "s",
