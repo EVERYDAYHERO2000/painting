@@ -112,4 +112,30 @@
 
   })();
 
-  
+  $(function(){
+    let current = '#f5f5f4';
+    const colors = ['#f5f5f4', '#afafaa', '#312b2b', '#636159', '#404448', '#524147', '#aba087']
+
+    $('.page').click(function(){
+
+      let count;
+
+      for (var i=0; i < colors.length; i++){
+
+        if (current == colors[i]){
+
+          current = (i < colors.length - 1) ? colors[i+1] : colors[0];
+          
+          console.log(current)
+          break;
+        }
+      }  
+
+        
+
+        $(this).css({
+          background: current
+        })
+
+    })
+  })

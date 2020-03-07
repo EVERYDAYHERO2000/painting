@@ -14,7 +14,7 @@ const page = function(){
 
         let type = (e.size == 'm' || e.size == 'l') ? 1 : 2,
             frame = (e.size == 'm' || e.size == 'l') ? `knoppaeng-frame_${e.frame}.png` : `edsbruk-frame_${e.frame}.png`,
-            status = (e.status && e.status == 'sold') ? '<div>Продано</div>' : '',
+            status = (e.status && e.status == 'sold') ? '<div>Продано</div>' : '<div class="btn-group"><a class="btn" href="#">5 000 руб.</a></div>',
             props = (function(){
 
                 let p = {
@@ -49,11 +49,11 @@ const page = function(){
         <div class="screen"> 
             <div class="container container_${e.dir} container_size-${e.size}">
                 <div class="container__description">
-                    ${status}
                     <div class="description__title">${(e.name) ? `${e.name}, ` : ''} 2020</div>
                     <div>Холст на оргалите, масло</div>
                     <div>Размер: ${props.canvas} см</div>
                     <div>Рама: ${props.name} ${props.frame} см</div>
+                    ${status}
                 </div>
                 <div class="container__inner">
                     <div class="container__hover">
