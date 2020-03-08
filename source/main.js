@@ -3,6 +3,36 @@ $(function() {
 
     const browser = browserDetect();
 
+    $('.link').each(function(i,e){
+      
+      let href = location.origin + location.pathname + '#' + $(e).closest('.screen').attr('id');
+      
+      $(this).val(href).attr('value', href);
+
+    })
+
+    $('.btn_get').click(function(e){
+
+      $('.window').addClass('window_visible');
+
+    });
+
+    $('.btn_copy').click(function(){
+
+      $(this).find('.link')[0].select(); 
+      $(this).find('.link')[0].setSelectionRange(0, 99999);
+
+
+      document.execCommand("copy");
+
+    });
+
+    $('.window').click(function(e){
+
+      if ( $(e.target).is('.window') ) $(this).removeClass('window_visible');
+
+    })
+
     $('.page').addClass(browser.browserName).addClass(browser.isMobile);
 
     $('.page.not-mobile .screen').mouseenter(function(e){

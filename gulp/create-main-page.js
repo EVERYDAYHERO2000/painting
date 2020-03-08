@@ -15,7 +15,7 @@ const page = function(){
         let type = (e.size == 'm' || e.size == 'l') ? 1 : 2,
             frame = (e.size == 'm' || e.size == 'l') ? `knoppaeng-frame_${e.frame}.png` : `edsbruk-frame_${e.frame}.png`,
             date = 2020,
-            status = (e.status && e.status == 'sold') ? '<div>Продано</div>' : '<div class="btn-group"><a class="btn" href="#">5 000 руб.</a></div>',
+            status = (e.status && e.status == 'sold') ? '<div>Продано</div>' : '<a class="btn btn_get" href="#">5 000 руб.</a>',
             props = (function(){
 
                 let p = {
@@ -54,7 +54,7 @@ const page = function(){
                     <div>Холст на оргалите, масло</div>
                     <div>Размер: ${props.canvas} см</div>
                     <div>Рама: ${props.name} ${props.frame} см</div>
-                    ${status}
+                    <div class="btn-group">${status} <a class="btn bth_link btn_copy" href="#pic_${i}">Скопировать ссылку<input class="link" /></a></div>
                 </div>
                 <div class="container__inner">
                     <figure class="container__hover">
@@ -85,6 +85,13 @@ const page = function(){
                    ${screens} 
                 </main>
                 <div class="window">
+                    <div class="window__inner">
+                        <div>Привет! Меня зовут Илья, свяжитесь со мной в Телеграме или WhatsApp</div>
+                        <div class="btn-group">
+                            <a class="btn" target="_blank" href="https://teleg.run/EVERYDAYHER0">Telegram</a>
+                            <a class="btn" target="_blank" href="https://api.whatsapp.com/send?phone=79268487840">WhatsApp</a>
+                            </div>
+                    </div>
                 </div>
                 <script src="./bin/main.js"></script>
             </body>
