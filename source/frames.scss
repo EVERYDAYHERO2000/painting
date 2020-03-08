@@ -5,22 +5,43 @@
     width: auto;
     transform-origin: center;
     pointer-events: none;
-    filter: drop-shadow(1px 2px 5px rgba(0,0,0,.1));
+    //filter: drop-shadow(1px 2px 5px rgba(0,0,0,.1));
 
     @media screen and (max-width: 500px) {
       max-height: 95vw;
     } 
 
+    .page.chrome & {
+      box-shadow: none;
+      filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.35));
+    }
+
 }
 
 .frame_shadow {
-    filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.35));
-    transform: scale(0.99);
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.35);
+    //filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.35));
+    transform: scale(0.97);
+
+    .page.chrome & {
+      box-shadow: none;
+      filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.35));
+    }
 }
 
+
+
 .frame_shadow[src*=_black] {
-  filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.5));
-  transform: scale(0.99);
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.5);
+  //filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.5));
+  transform: scale(0.97);
+
+  .page.chrome & {
+    box-shadow: none;
+    filter: drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.35));
+  }  
+
+
 }
 
 .container_hor.container_size-s .frame {
@@ -53,6 +74,10 @@
 
 .container_hor.container_size-l .painting {
   transform: scale(0.4);
+}
+
+.container_hor .frame.frame_shadow {
+  transform: rotate(90deg) scale(0.97)!important;
 }
 
 .painting {
