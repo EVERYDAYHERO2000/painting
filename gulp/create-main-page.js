@@ -14,6 +14,7 @@ const page = function(){
 
         let type = (e.size == 'm' || e.size == 'l') ? 1 : 2,
             frame = (e.size == 'm' || e.size == 'l') ? `knoppaeng-frame_${e.frame}.png` : `edsbruk-frame_${e.frame}.png`,
+            date = 2020,
             status = (e.status && e.status == 'sold') ? '<div>Продано</div>' : '<div class="btn-group"><a class="btn" href="#">5 000 руб.</a></div>',
             props = (function(){
 
@@ -46,24 +47,24 @@ const page = function(){
 
         screens += `
         
-        <div class="screen"> 
+        <section id="pic_${i}" class="screen"> 
             <div class="container container_${e.dir} container_size-${e.size}">
                 <div class="container__description">
-                    <div class="description__title">${(e.name) ? `${e.name}, ` : ''} 2020</div>
+                    <div class="description__title">${(e.name) ? `${e.name}, ` : ''} ${date}</div>
                     <div>Холст на оргалите, масло</div>
                     <div>Размер: ${props.canvas} см</div>
                     <div>Рама: ${props.name} ${props.frame} см</div>
                     ${status}
                 </div>
                 <div class="container__inner">
-                    <div class="container__hover">
-                        <img src="./assets/${frame}" class="frame frame_${type} frame_shadow" />
-                        <img src="./assets/pic/${e.src}" class="painting" />
+                    <figure class="container__hover">
+                        <img src="./assets/${frame}" class="frame frame_${type} frame_shadow" loading="lazy" />
+                        <img src="./assets/pic/${e.src}" class="painting" alt="${(e.name) ? `${e.name}, ` : ''} ${date}" loading="lazy" />
                         <img src="./assets/${frame}" class="frame frame_${type}" />
-                    </div>    
+                    </figure>    
                 </div>
             </div>
-        </div>
+        </section>
         
         `
     });
@@ -79,9 +80,11 @@ const page = function(){
                 <link href="./bin/main.css" type="text/css" rel="stylesheet" />
             </head>
             <body>
-                <div class="page"> 
+                <main class="page"> 
                 
                    ${screens} 
+                </main>
+                <div class="window">
                 </div>
                 <script src="./bin/main.js"></script>
             </body>
