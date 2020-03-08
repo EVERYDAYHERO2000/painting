@@ -3,6 +3,8 @@ $(function() {
 
     const browser = browserDetect();
 
+    if (browser.platform == 'macintel') $('html').addClass('macintel')
+
     $('.link').each(function(i,e){
       
       let href = location.origin + location.pathname + '#' + $(e).closest('.screen').attr('id');

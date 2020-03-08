@@ -71,9 +71,10 @@ const page = function(){
 
     page = `
         <!DOCTYPE html>
-        <html>
+        <html lang="ru">
             <head>
                 <title>Лавка 10 × 15</title>
+                <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                 <script src="./assets/jquery.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Podkova&display=swap" rel="stylesheet">
