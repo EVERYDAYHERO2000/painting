@@ -79,6 +79,7 @@ const page = function(){
                 <script src="./assets/jquery.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Podkova&display=swap" rel="stylesheet">
                 <link href="./bin/main.css" type="text/css" rel="stylesheet" />
+                <link rel="shortcut icon" href="//myio.one/favicon.png" type="image/png">
                 <!-- Yandex.Metrika counter -->
                 <script type="text/javascript" >
                 (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
