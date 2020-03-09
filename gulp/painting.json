@@ -125,5 +125,12 @@
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
+    },
+    {
+        "name" : "Осака",
+        "src" : "s_h_pic_20.png",
+        "dir" : "hor",
+        "size" : "s",
+        "frame" : "black"
     }
 ]
