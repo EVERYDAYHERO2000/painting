@@ -15,7 +15,7 @@ const page = function(){
         let type = (e.size == 'm' || e.size == 'l') ? 1 : 2,
             frame = (e.size == 'm' || e.size == 'l') ? `knoppaeng-frame_${e.frame}.png` : `edsbruk-frame_${e.frame}.png`,
             date = 2020,
-            status = (e.status && e.status == 'sold') ? '' : '<a class="btn btn_get" href="#">5 000 руб.</a>',
+            status = (e.status && e.status == 'sold') ? '' : '<a class="btn btn_get" href="#">Купить</a>',
             props = (function(){
 
                 let p = {
