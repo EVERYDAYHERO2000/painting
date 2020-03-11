@@ -18,7 +18,8 @@
         "src" : "l_v_pic_2.png",
         "dir" : "ver",
         "size" : "l",
-        "frame" : "black"
+        "frame" : "black",
+        "status" : "sold"
     },
     {
         "name" : "Вена",
