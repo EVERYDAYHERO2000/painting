@@ -21,13 +21,10 @@ $(function() {
       $('.painting_prv').each(function() {
         if ($(this).isInViewport()) {
           $(this).lazyload();
-          $(this).removeClass('painting_prv')
+          $(this).removeClass('painting_prv');
         }
       });
     }
-
-    //let images = document.querySelectorAll('.painting');
-    //lazyload(images);
 
     const browser = browserDetect();
 
