@@ -140,5 +140,20 @@
         "dir" : "hor",
         "size" : "s",
         "frame" : "white"
+    },
+    {
+        "name" : "Вечер",
+        "src" : "l_h_pic_23.png",
+        "dir" : "hor",
+        "size" : "l",
+        "frame" : "black"
+    },
+    {
+        "name" : "Фусими Инари в Киото",
+        "src" : "l_v_pic_22.png",
+        "dir" : "ver",
+        "size" : "l",
+        "frame" : "black",
+        "status" : "sold"
     }
 ]
