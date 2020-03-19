@@ -1,5 +1,33 @@
+$.fn.isInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+
+  return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
 
 $(function() {
+
+    detectVisible();
+
+    $(window).on('resize scroll', function() {
+      detectVisible();
+    });
+
+    function detectVisible() {
+      $('.painting_prv').each(function() {
+        if ($(this).isInViewport()) {
+          $(this).lazyload();
+          $(this).removeClass('painting_prv')
+        }
+      });
+    }
+
+    //let images = document.querySelectorAll('.painting');
+    //lazyload(images);
 
     const browser = browserDetect();
 

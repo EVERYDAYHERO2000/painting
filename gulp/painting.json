@@ -1,21 +1,21 @@
 [
     {
         "name" : "Горы",
-        "src" : "s_v_pic_16.png",
+        "src" : "s_v_pic_16",
         "dir" : "ver",
         "size" : "s",
         "frame" : "black"
     },
     {
         "name" : "Утро",
-        "src" : "s_v_pic_14.png",
+        "src" : "s_v_pic_14",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Новый город",
-        "src" : "l_v_pic_2.png",
+        "src" : "l_v_pic_2",
         "dir" : "ver",
         "size" : "l",
         "frame" : "black",
@@ -23,91 +23,91 @@
     },
     {
         "name" : "Вена",
-        "src" : "m_h_pic_3.png",
+        "src" : "m_h_pic_3",
         "dir" : "hor",
         "size" : "m",
         "frame" : "black"
     },
     {
         "name" : "Облака",
-        "src" : "s_h_pic_8.png",
+        "src" : "s_h_pic_8",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
         "name" : "Дом",
-        "src" : "s_v_pic_13.png",
+        "src" : "s_v_pic_13",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Ночь",
-        "src" : "s_v_pic_12.png",
+        "src" : "s_v_pic_12",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Весна",
-        "src" : "s_v_pic_11.png",
+        "src" : "s_v_pic_11",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Проспект",
-        "src" : "s_v_pic_10.png",
+        "src" : "s_v_pic_10",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Вид на Фудзи с озера Кавагучи",
-        "src" : "l_h_pic_1.png",
+        "src" : "l_h_pic_1",
         "dir" : "hor",
         "size" : "l",
         "frame" : "black"
     },
     {
         "name" : "Инсбрук",
-        "src" : "s_h_pic_7.png",
+        "src" : "s_h_pic_7",
         "dir" : "hor",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Утро",
-        "src" : "s_h_pic_6.png",
+        "src" : "s_h_pic_6",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
         "name" : "Город",
-        "src" : "s_h_pic_5.png",
+        "src" : "s_h_pic_5",
         "dir" : "hor",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Фудзикавагутико, уезд Минамицуру, Яманаси, Япония",
-        "src" : "s_v_pic_15.png",
+        "src" : "s_v_pic_15",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "",
-        "src" : "s_v_pic_17.png",
+        "src" : "s_v_pic_17",
         "dir" : "ver",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Город",
-        "src" : "m_v_pic_4.png",
+        "src" : "m_v_pic_4",
         "dir" : "ver",
         "size" : "m",
         "frame" : "black",
@@ -115,42 +115,42 @@
     },
     {
         "name" : "Дома",
-        "src" : "s_h_pic_18.png",
+        "src" : "s_h_pic_18",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
         "name" : "После дождя",
-        "src" : "s_h_pic_19.png",
+        "src" : "s_h_pic_19",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
         "name" : "Киото, река Камо",
-        "src" : "s_h_pic_20.png",
+        "src" : "s_h_pic_20",
         "dir" : "hor",
         "size" : "s",
         "frame" : "black"
     },
     {
         "name" : "Зальцбург",
-        "src" : "s_h_pic_21.png",
+        "src" : "s_h_pic_21",
         "dir" : "hor",
         "size" : "s",
         "frame" : "white"
     },
     {
         "name" : "Вечер",
-        "src" : "l_h_pic_23.png",
+        "src" : "l_h_pic_23",
         "dir" : "hor",
         "size" : "l",
         "frame" : "black"
     },
     {
         "name" : "Фусими Инари в Киото",
-        "src" : "l_v_pic_22.png",
+        "src" : "l_v_pic_22",
         "dir" : "ver",
         "size" : "l",
         "frame" : "black",

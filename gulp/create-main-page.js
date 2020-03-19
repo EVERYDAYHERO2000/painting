@@ -59,7 +59,7 @@ const page = function(){
                 <div class="container__inner">
                     <figure class="container__hover">
                         <img src="./assets/${frame}" class="frame frame_${type} frame_shadow" loading="lazy" />
-                        <img src="./assets/pic/${e.src}" class="painting" alt="${(e.name) ? `${e.name}, ` : ''} ${date}" loading="lazy" />
+                        <img src="./assets/pic/${e.src}_prv.png" data-src="./assets/pic/${e.src}.png" class="painting painting_prv" alt="${(e.name) ? `${e.name}, ` : ''} ${date}" loading="lazy" />
                         <img src="./assets/${frame}" class="frame frame_${type}" />
                     </figure>    
                 </div>
@@ -77,6 +77,7 @@ const page = function(){
                 <meta charset="utf-8">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
                 <script src="./assets/jquery.js"></script>
+                <script src="./assets/lazyload.js"></script>
                 <link href="https://fonts.googleapis.com/css?family=Podkova&display=swap" rel="stylesheet">
                 <link href="./bin/main.css" type="text/css" rel="stylesheet" />
                 <link rel="shortcut icon" href="//myio.one/favicon.png" type="image/png">

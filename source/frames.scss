@@ -81,7 +81,7 @@
 }
 
 .painting {
-  max-height: 80vh;
+  height: 80vh;
   width: auto;
   transform: scale(0.57);
   transform-origin: center;
@@ -91,7 +91,7 @@
   position: absolute;
 
   @media screen and (max-width: 500px) {
-    max-height: 95vw;
+    height: 95vw;
 
   }
 
