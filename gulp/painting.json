@@ -47,7 +47,8 @@
         "src" : "s_v_pic_12",
         "dir" : "ver",
         "size" : "s",
-        "frame" : "white"
+        "frame" : "white",
+        "status" : "sold"
     },
     {
         "name" : "Весна",
@@ -82,7 +83,8 @@
         "src" : "s_h_pic_6",
         "dir" : "hor",
         "size" : "s",
-        "frame" : "black"
+        "frame" : "black",
+        "status" : "sold"
     },
     {
         "name" : "Город",
