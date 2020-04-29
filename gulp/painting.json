@@ -11,7 +11,8 @@
         "src" : "s_v_pic_14",
         "dir" : "ver",
         "size" : "s",
-        "frame" : "white"
+        "frame" : "white",
+        "status" : "sold"
     },
     {
         "name" : "Новый город",
@@ -40,7 +41,8 @@
         "src" : "s_v_pic_13",
         "dir" : "ver",
         "size" : "s",
-        "frame" : "white"
+        "frame" : "white",
+        "status" : "sold"
     },
     {
         "name" : "Ночь",
